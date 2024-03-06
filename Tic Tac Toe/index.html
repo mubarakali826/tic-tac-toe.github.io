@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>TIC TAC TOE</h2>
+        <div class="outer">
+            <div class="inner">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="inner">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="inner">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <button class="refresh">REFRESH</button>
+        <div class="details">
+            <form action="">
+                <div class="line" >
+                    <label for="">Player 1's Name : </label>
+                    <input type="text" class="name">
+                </div>
+                <div class="line">
+                    <label for="">Player 2's Name : </label>
+                    <input type="text" class="name">
+                </div>
+                <span>Both names are required</span>
+                <button class="refresh" id="start" style="width: 150px;">Start Game</button>
+            </form>
+        </div>
+        <div class="gameOn">
+            <h4>Game On! Enter Your Names to Begin:</h4>
+            <button class="refresh" id="initialize">&#x25BC;</button>
+        </div>
+        <div class="signs">
+            <div style="color: rgb(159, 161, 211);">SIGNS</div>
+            <p class="p"></p>
+            <p class="p"></p>
+        </div>
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
